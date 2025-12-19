@@ -3,7 +3,7 @@
 Asynchronous Python scraper for collecting Ukrainian web development companies from Clutch.co,
 with pagination handling, provider validation, and export to Excel.
 
-The script navigates Clutch listings, skips promoted (“featured”) providers, resolves known
+The script navigates Clutch listings, skips promoted featured providers, resolves known
 pagination inconsistencies, parses provider profile pages, and produces structured tabular data.
 
 ---
@@ -34,3 +34,4 @@ For each provider:
 
 ```bash
 pip install -r requirements.txt
+
